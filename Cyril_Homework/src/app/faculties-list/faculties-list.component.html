@@ -1,0 +1,12 @@
+<div class="container cards">
+  <div class="card" style="width: 18rem;" *ngFor="let faculty of faculties">
+    <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/7/7b/Faculty_logo_black_and_white_2021.png"
+      alt="Card image cap">
+    <hr>
+    <div class="card-body">
+      <h5 class="card-title">{{faculty.name}}</h5>
+      <p class="card-text">Count Of Students : {{faculty.students}}</p>
+      <p class="card-text">{{faculty.description}}</p>
+    </div>
+  </div>
+</div>
